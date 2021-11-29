@@ -7,3 +7,7 @@ mini-dev board on E72-2G4M20S1E
 
 ![Bottom layer](./cc2652p_bottom.png)
 
+
+
+
+
