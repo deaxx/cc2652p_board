@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -1305,9 +1305,8 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="30K5635" x="10.2" y="14.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="10.2" y="14.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V" x="17.2" y="18.9" smashed="yes">
+<element name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="ap2112k-3.3" x="17.2" y="18.9" smashed="yes">
 <attribute name="PROD_ID" value="VREG-12457" x="17.2" y="18.9" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.2475" y="18.7095" size="0.4064" layer="27"/>
 </element>
 <element name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="JST-PH-2-SMT-RA" package3d_urn="urn:adsk.eagle:package:6240692/1" value="" x="19.2" y="3.4" smashed="yes" rot="R180">
 <attribute name="VALUE" x="21.74" y="11.02" size="1.27" layer="27" font="vector" rot="R180"/>
@@ -1328,7 +1327,7 @@ design rules under a new name.</description>
 <element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="23.1" y="51.4" smashed="yes">
 <attribute name="PROD_ID" value="DIO-00821" x="23.4" y="54.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="23.2" y="50.2" smashed="yes">
+<element name="R5" library="RC0402FR-073M6L" package="RESC1005X40N" value="2.2k" x="23.2" y="50.2" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="23.2" y="50.2" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="23.2" y="50.2" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="23.2" y="50.2" size="1.778" layer="27" display="off"/>
@@ -1337,7 +1336,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="23.2" y="50.2" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="23.2" y="50.2" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="1.7" y="50.2" smashed="yes" rot="R180">
+<element name="R3" library="RC0402FR-073M6L" package="RESC1005X40N" value="2.2k" x="1.7" y="50.2" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="1.7" y="50.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="1.7" y="50.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="1.7" y="50.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1354,7 +1353,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.212" y="20" size="0.8128" layer="25" font="vector" ratio="12" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-11015" x="14.65" y="19.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="10.3" y="17.8" smashed="yes" rot="R90">
+<element name="R1" library="RC0402FR-073M6L" package="RESC1005X40N" value="100k" x="10.3" y="17.8" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="10.3" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="10.3" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="10.3" y="17.8" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1373,15 +1372,15 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="SWCH-13065" x="12.4" y="23.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="10.876" y="23.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R2" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="17.3" y="15.6" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="Good" x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="RC0402FR-073M6L" x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.93" y="14.55" size="0.8128" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="17.3" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R2" library="RC0402FR-073M6L" package="RESC1005X40N" value="10k" x="21.12" y="17.35" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="RC0402FR-073M6L" x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="21.9" y="19.11" size="0.8128" layer="25" rot="R180"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="21.12" y="17.35" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J5" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" value="TYPE-C-31-M-12" x="6.4" y="2.7" smashed="yes">
 <attribute name="AVAILABILITY" value="Unavailable" x="-4.4" y="16.6" size="1.778" layer="27" display="off"/>
@@ -1391,7 +1390,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="Package " x="-4.4" y="16.6" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-4.4" y="16.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="4.7" y="10.1" smashed="yes" rot="R270">
+<element name="R4" library="RC0402FR-073M6L" package="RESC1005X40N" value="5.1k" x="4.7" y="10.1" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="4.7" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="4.7" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="4.7" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1401,7 +1400,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="4.7" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="4.7" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R6" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="7.2" y="9.8" smashed="yes" rot="R90">
+<element name="R6" library="RC0402FR-073M6L" package="RESC1005X40N" value="33Ohm" x="7.2" y="9.8" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="7.2" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="7.2" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="7.2" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1411,7 +1410,7 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="7.2" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="7.2" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="8.4" y="9.8" smashed="yes" rot="R90">
+<element name="R7" library="RC0402FR-073M6L" package="RESC1005X40N" value="33Ohm" x="8.4" y="9.8" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="8.4" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="8.4" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="8.4" y="9.8" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1425,12 +1424,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.2" y="10.662" size="0.8128" layer="25" font="vector" ratio="12" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="13.3" y="9.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="13.6" y="13.3" smashed="yes" rot="R270">
+<element name="R8" library="RC0402FR-073M6L" package="RESC1005X40N" value="4.7k" x="13.6" y="13.3" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.93" y="14.45" size="0.8128" layer="25"/>
+<attribute name="NAME" x="12.91" y="11.56" size="0.8128" layer="25"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="13.6" y="13.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1446,7 +1445,7 @@ design rules under a new name.</description>
 <element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="RED" x="12.5" y="4.2" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="12.5" y="4.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="12.3" y="6.9" smashed="yes" rot="R270">
+<element name="R9" library="RC0402FR-073M6L" package="RESC1005X40N" value="2.2k" x="12.3" y="6.9" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="12.3" y="6.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="12.3" y="6.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="12.3" y="6.9" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1473,12 +1472,10 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TPD2E001DZDR/?ref=eda" x="4.8" y="13.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D5" library="pimoroni-passives" package="SOD-323" value="" x="15.1" y="15.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.638" y="16.2" size="0.8128" layer="25" font="vector" ratio="14" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="13.678" y="15.74" size="0.8128" layer="25" font="vector" ratio="14" rot="R180" align="bottom-center"/>
 </element>
-<element name="Q1" library="pimoroni-passives" package="SOT23" value="" x="16.1" y="11.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="17.116" y="11.3905" size="0.4064" layer="27" rot="R180"/>
-</element>
-<element name="R10" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="11.1" y="10.1" smashed="yes" rot="R270">
+<element name="Q1" library="pimoroni-passives" package="SOT23" value="SI2323DS" x="16.1" y="11.2" smashed="yes" rot="R180"/>
+<element name="R10" library="RC0402FR-073M6L" package="RESC1005X40N" value="5.1k" x="11.1" y="10.1" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="11.1" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="11.1" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="11.1" y="10.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1491,17 +1488,17 @@ design rules under a new name.</description>
 <element name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:39060/1" value="MCP73831" x="19.8" y="11.2" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="IC-09995" x="19.8" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R11" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="19.8" y="13.3" smashed="yes">
+<element name="R11" library="RC0402FR-073M6L" package="RESC1005X40N" value="2k" x="19.8" y="13.3" smashed="yes">
 <attribute name="AVAILABILITY" value="Good" x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="RC0402FR-073M6L" x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.85" y="14.53" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="21.6" y="12.66" size="0.8128" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="19.8" y="13.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R12" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="13.9" y="6.9" smashed="yes" rot="R90">
+<element name="R12" library="RC0402FR-073M6L" package="RESC1005X40N" value="2.2k" x="13.9" y="6.9" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="13.9" y="6.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="13.9" y="6.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="13.9" y="6.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1515,13 +1512,13 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-08575" x="13.9" y="4.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SAMTECH_FTSH-105-01" package3d_urn="urn:adsk.eagle:package:38289/1" value="CORTEX_DEBUG_SMD" x="6.7" y="22.4" smashed="yes" rot="R270"/>
-<element name="U3" library="XC61CN3202MRG" package="XC61C_SOT-23_TOR" value="XC61CN3202MR-G" x="19.8" y="15.6" smashed="yes" rot="R270">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="19.8" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="XC61CN3202MR-G" x="19.8" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCELIBRARY" value="Torex_2016-06-30_2" x="19.8" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Torex Semiconductor" x="19.8" y="15.6" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U3" library="XC61CN3202MRG" package="XC61C_SOT-23_TOR" value="XC61CN3202MR-G" x="19.56" y="15.4" smashed="yes" rot="R270">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="19.56" y="15.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="XC61CN3202MR-G" x="19.56" y="15.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCELIBRARY" value="Torex_2016-06-30_2" x="19.56" y="15.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Torex Semiconductor" x="19.56" y="15.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R13" library="RC0402FR-073M6L" package="RESC1005X40N" value="RC0402FR-073M6L" x="3.49" y="10.11" smashed="yes" rot="R270">
+<element name="R13" library="RC0402FR-073M6L" package="RESC1005X40N" value="10k" x="3.49" y="10.11" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="3.49" y="10.11" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="3.49" y="10.11" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="3.49" y="10.11" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1530,6 +1527,16 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="3.49" y="10.11" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="3.49" y="10.11" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="3.49" y="10.11" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R14" library="RC0402FR-073M6L" package="RESC1005X40N" value="10k" x="17.25" y="14.89" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V " x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Yageo" x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="RC0402FR-073M6L" x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="16.67" y="13.86" size="0.8128" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components" x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda" x="17.25" y="14.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1619,10 +1626,6 @@ design rules under a new name.</description>
 <wire x1="14.3507375" y1="28.57803125" x2="14.3507375" y2="29.7507375" width="0.2" layer="1"/>
 <wire x1="14.3507375" y1="29.7507375" x2="14.4" y2="29.8" width="0.2" layer="1"/>
 <via x="14.4" y="29.8" extent="1-16" drill="0.3"/>
-<wire x1="19.55" y1="20.25" x2="20.85" y2="20.25" width="0.2" layer="1"/>
-<wire x1="21.4" y1="19.7" x2="21.4" y2="19.4" width="0.2" layer="1"/>
-<wire x1="20.85" y1="20.25" x2="21.4" y2="19.7" width="0.2" layer="1"/>
-<via x="21.4" y="19.4" extent="1-16" drill="0.3"/>
 <wire x1="17" y1="21.55" x2="17.75" y2="21.55" width="0.2" layer="1"/>
 <wire x1="18.2" y1="22" x2="18.2" y2="23.6" width="0.2" layer="1"/>
 <wire x1="17.75" y1="21.55" x2="18.2" y2="22" width="0.2" layer="1"/>
@@ -1756,8 +1759,14 @@ design rules under a new name.</description>
 <wire x1="22.3" y1="11.1" x2="22.8" y2="10.6" width="0.508" layer="1"/>
 <via x="22.3" y="11.1" extent="1-16" drill="0.3"/>
 <via x="11.78" y="29.94" extent="1-16" drill="0.3"/>
-<via x="21.4" y="18.06" extent="1-16" drill="0.3"/>
 <via x="3.67" y="28.67" extent="1-16" drill="0.3"/>
+<wire x1="19.55" y1="20.25" x2="20.644" y2="20.25" width="0.2" layer="1"/>
+<wire x1="20.644" y1="20.25" x2="20.955" y2="19.939" width="0.2" layer="1"/>
+<via x="20.955" y="19.939" extent="1-16" drill="0.3"/>
+<via x="19.66" y="15.61" extent="1-16" drill="0.3"/>
+<via x="22.26" y="16.77" extent="1-16" drill="0.3"/>
+<via x="17.2" y="16.48" extent="1-16" drill="0.3"/>
+<via x="15.49" y="15.43" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="RESET">
 <contactref element="C3" pad="1"/>
@@ -1827,62 +1836,73 @@ design rules under a new name.</description>
 <contactref element="J2" pad="2"/>
 <via x="16.1" y="8.4" extent="1-16" drill="0.3"/>
 <wire x1="18.2" y1="7.1" x2="18" y2="6.9" width="0.2" layer="1"/>
-<wire x1="20.9001" y1="15.5063" x2="20.9938" y2="15.6" width="0.2" layer="1"/>
+<wire x1="20.6601" y1="15.3063" x2="20.7538" y2="15.4" width="0.2" layer="1"/>
 <wire x1="16.1" y1="8.4" x2="16.1" y2="11.2" width="0.508" layer="16"/>
 <wire x1="18.2" y1="7.1" x2="16.7" y2="7.1" width="0.6096" layer="1"/>
 <wire x1="16.7" y1="7.1" x2="16.1" y2="7.7" width="0.6096" layer="1"/>
 <wire x1="16.1" y1="7.7" x2="16.1" y2="8.4" width="0.6096" layer="1"/>
 <wire x1="16.1" y1="8.4" x2="16.1" y2="10.1" width="0.6096" layer="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="20.9938" y1="15.6" x2="18.25320625" y2="15.6" width="0.4064" layer="1"/>
-<wire x1="17.82120625" y1="15.168" x2="17.3" y2="15.168" width="0.4064" layer="1"/>
-<wire x1="18.25320625" y1="15.6" x2="17.82120625" y2="15.168" width="0.4064" layer="1"/>
-<wire x1="21.1001" y1="12.15" x2="22.01" y2="12.15" width="0.508" layer="1"/>
-<wire x1="22.01" y1="12.15" x2="22.35" y2="12.15" width="0.508" layer="1"/>
-<wire x1="22.35" y1="12.15" x2="22.4" y2="12.2" width="0.508" layer="1"/>
-<via x="22.4" y="12.2" extent="1-16" drill="0.3"/>
+<wire x1="21.1001" y1="12.15" x2="22.24" y2="12.15" width="0.508" layer="1"/>
+<wire x1="22.24" y1="12.15" x2="22.25" y2="12.16" width="0.508" layer="1"/>
+<via x="22.25" y="12.16" extent="1-16" drill="0.3"/>
 <wire x1="23.9" y1="13.14" x2="22.91" y2="12.15" width="0.508" layer="1"/>
-<wire x1="22.91" y1="12.15" x2="22.35" y2="12.15" width="0.508" layer="1"/>
-<wire x1="16.1" y1="11.2" x2="17.1" y2="12.2" width="0.508" layer="16"/>
-<wire x1="17.1" y1="12.2" x2="22.4" y2="12.2" width="0.508" layer="16"/>
-<wire x1="22.4" y1="12.2" x2="22.96" y2="12.2" width="0.508" layer="16"/>
-<wire x1="22.96" y1="12.2" x2="23.9" y2="13.14" width="0.508" layer="16"/>
-<wire x1="20.9938" y1="15.6" x2="21.9" y2="15.6" width="0.4064" layer="1"/>
+<wire x1="22.91" y1="12.15" x2="22.24" y2="12.15" width="0.508" layer="1"/>
+<wire x1="16.1" y1="11.2" x2="17.06" y2="12.16" width="0.508" layer="16"/>
+<wire x1="17.06" y1="12.16" x2="22.25" y2="12.16" width="0.508" layer="16"/>
+<wire x1="22.25" y1="12.16" x2="22.92" y2="12.16" width="0.508" layer="16"/>
+<wire x1="22.92" y1="12.16" x2="23.9" y2="13.14" width="0.508" layer="16"/>
+<wire x1="20.7538" y1="15.4" x2="21.06" y2="15.4" width="0.4064" layer="1"/>
+<wire x1="21.06" y1="15.4" x2="21.44" y2="15.4" width="0.4064" layer="1"/>
+<wire x1="21.46" y1="15.38" x2="22.12" y2="15.38" width="0.4064" layer="1"/>
 <wire x1="23.9" y1="13.6" x2="23.9" y2="13.14" width="0.4064" layer="1"/>
-<wire x1="21.9" y1="15.6" x2="23.9" y2="13.6" width="0.4064" layer="1"/>
+<wire x1="22.12" y1="15.38" x2="23.9" y2="13.6" width="0.4064" layer="1"/>
 <polygon width="0.0762" layer="1">
-<vertex x="21.18" y="15.7"/>
+<vertex x="21.18" y="15.59"/>
 <vertex x="21.18" y="11.99"/>
 <vertex x="22.97" y="11.99"/>
 <vertex x="24.04" y="13.06"/>
 <vertex x="24.04" y="13.59"/>
-<vertex x="21.93" y="15.7"/>
+<vertex x="22.04" y="15.59"/>
 </polygon>
 <polygon width="0.0762" layer="1" thermals="no">
 <vertex x="22.91" y="12.01"/>
 <vertex x="21.19" y="12.01"/>
-<vertex x="21.19" y="15.76"/>
-<vertex x="21.87" y="15.76"/>
+<vertex x="21.19" y="15.6"/>
+<vertex x="22.03" y="15.6"/>
 <vertex x="24.04" y="13.59"/>
 <vertex x="24.04" y="13.14"/>
 </polygon>
 <wire x1="23.08" y1="12.04" x2="21.12" y2="12.04" width="0.0762" layer="1"/>
-<wire x1="21.12" y1="12.04" x2="21.12" y2="15.79" width="0.0762" layer="1"/>
-<wire x1="21.12" y1="15.79" x2="21.92" y2="15.79" width="0.0762" layer="1"/>
-<wire x1="21.92" y1="15.79" x2="24.04" y2="13.67" width="0.0762" layer="1"/>
+<wire x1="21.12" y1="12.04" x2="21.12" y2="15.34" width="0.0762" layer="1"/>
+<wire x1="21.12" y1="15.34" x2="21.12" y2="15.45" width="0.0762" layer="1"/>
+<wire x1="21.12" y1="15.45" x2="21.12" y2="15.61" width="0.0762" layer="1"/>
+<wire x1="21.12" y1="15.61" x2="22.1" y2="15.61" width="0.0762" layer="1"/>
+<wire x1="22.1" y1="15.61" x2="24.04" y2="13.67" width="0.0762" layer="1"/>
 <wire x1="24.04" y1="13.67" x2="24.04" y2="13" width="0.0762" layer="1"/>
 <wire x1="24.04" y1="13" x2="23.08" y2="12.04" width="0.0762" layer="1"/>
+<wire x1="21.12" y1="16.918" x2="21.1238" y2="16.9142" width="0.2" layer="1"/>
+<wire x1="21.44" y1="15.4" x2="21.46" y2="15.38" width="0.2" layer="1"/>
+<wire x1="21.12" y1="16.918" x2="21.12" y2="15.45" width="0.2" layer="1"/>
+<wire x1="21.06" y1="15.4" x2="21.12" y2="15.34" width="0.2" layer="1"/>
+<wire x1="21.12" y1="16.918" x2="21.12" y2="15.46" width="0.2" layer="1"/>
+<wire x1="21.12" y1="15.46" x2="21.06" y2="15.4" width="0.2" layer="1"/>
 </signal>
 <signal name="EN">
 <contactref element="U2" pad="3"/>
 <contactref element="R2" pad="1"/>
 <contactref element="U3" pad="1"/>
-<wire x1="17.3" y1="16.032" x2="17.3" y2="16.3" width="0.2" layer="1"/>
-<wire x1="17.3" y1="16.3" x2="17.55" y2="16.55" width="0.2" layer="1"/>
-<wire x1="17.55" y1="16.55" x2="18.1" y2="16.55" width="0.2" layer="1"/>
-<wire x1="18.1" y1="16.55" x2="18.6062" y2="16.55" width="0.2" layer="1"/>
-<wire x1="18.15" y1="17.5999" x2="18.15" y2="16.6" width="0.2" layer="1"/>
-<wire x1="18.15" y1="16.6" x2="18.1" y2="16.55" width="0.2" layer="1"/>
+<contactref element="R14" pad="1"/>
+<wire x1="18.15" y1="17.5999" x2="18.15" y2="16.35" width="0.2" layer="1"/>
+<wire x1="18.3662" y1="16.35" x2="18.15" y2="16.35" width="0.2" layer="1"/>
+<wire x1="18.3662" y1="16.35" x2="19.63" y2="16.35" width="0.2" layer="1"/>
+<wire x1="20.22" y1="16.94" x2="20.22" y2="17.34" width="0.2" layer="1"/>
+<wire x1="20.22" y1="17.34" x2="20.662" y2="17.782" width="0.2" layer="1"/>
+<wire x1="20.662" y1="17.782" x2="21.12" y2="17.782" width="0.2" layer="1"/>
+<wire x1="19.63" y1="16.35" x2="20.22" y2="16.94" width="0.2" layer="1"/>
+<wire x1="17.25" y1="15.322" x2="18.172" y2="15.322" width="0.2" layer="1"/>
+<wire x1="18.3662" y1="15.5162" x2="18.3662" y2="16.35" width="0.2" layer="1"/>
+<wire x1="18.172" y1="15.322" x2="18.3662" y2="15.5162" width="0.2" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="D1" pad="C"/>
@@ -1941,11 +1961,11 @@ design rules under a new name.</description>
 <wire x1="5.65" y1="6.80645" x2="5.5944" y2="6.75085" width="0.2" layer="1"/>
 <wire x1="6.65" y1="6.90645" x2="6.65" y2="7.795" width="0.2" layer="1"/>
 <wire x1="6.8056" y1="6.75085" x2="6.65" y2="6.90645" width="0.2" layer="1"/>
-<wire x1="6.65" y1="7.795" x2="6.65" y2="8.75" width="0.2" layer="1"/>
-<wire x1="6.65" y1="8.75" x2="6.7" y2="8.8" width="0.2" layer="1"/>
+<wire x1="6.65" y1="7.795" x2="6.65" y2="8.6" width="0.2" layer="1"/>
+<wire x1="6.65" y1="8.6" x2="6.85" y2="8.8" width="0.2" layer="1"/>
 <wire x1="8.3" y1="8.8" x2="8.4" y2="8.9" width="0.2" layer="1"/>
 <wire x1="8.4" y1="8.9" x2="8.4" y2="9.368" width="0.2" layer="1"/>
-<wire x1="6.7" y1="8.8" x2="8.3" y2="8.8" width="0.2" layer="1"/>
+<wire x1="6.85" y1="8.8" x2="8.3" y2="8.8" width="0.2" layer="1"/>
 </signal>
 <signal name="CC1">
 <contactref element="J5" pad="B8"/>
@@ -2016,15 +2036,20 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="IC2" pad="6"/>
-<wire x1="11.2" y1="11.8" x2="11.2" y2="11.3" width="0.2" layer="1"/>
-<wire x1="11.2" y1="11.3" x2="11.4" y2="11.1" width="0.2" layer="1"/>
-<wire x1="12.45" y1="10.65" x2="12.45" y2="9.7" width="0.2" layer="1"/>
-<wire x1="11.4" y1="11.1" x2="12" y2="11.1" width="0.2" layer="1"/>
-<wire x1="12" y1="11.1" x2="12.45" y2="10.65" width="0.2" layer="1"/>
-<wire x1="12.3" y1="7.332" x2="12.3" y2="8.2" width="0.2" layer="1"/>
-<wire x1="12.3" y1="8.2" x2="12.5" y2="8.4" width="0.2" layer="1"/>
 <wire x1="12.5" y1="8.4" x2="12.5" y2="9.65" width="0.2" layer="1"/>
 <wire x1="12.5" y1="9.65" x2="12.45" y2="9.7" width="0.2" layer="1"/>
+<wire x1="11.2" y1="11.8" x2="11.2" y2="11.2414" width="0.254" layer="1"/>
+<wire x1="11.2" y1="11.2414" x2="11.36" y2="11.0814" width="0.254" layer="1"/>
+<wire x1="11.36" y1="11.0814" x2="11.51573125" y2="11.0814" width="0.254" layer="1"/>
+<wire x1="11.51573125" y1="11.0814" x2="11.51713125" y2="11.08" width="0.254" layer="1"/>
+<wire x1="11.51713125" y1="11.08" x2="11.93" y2="11.08" width="0.254" layer="1"/>
+<wire x1="11.93" y1="11.08" x2="12.45" y2="10.56" width="0.254" layer="1"/>
+<wire x1="12.45" y1="10.56" x2="12.45" y2="9.82" width="0.254" layer="1"/>
+<wire x1="12.45" y1="9.82" x2="12.45" y2="9.7" width="0.254" layer="1"/>
+<wire x1="12.3" y1="7.332" x2="12.3" y2="8.2" width="0.254" layer="1"/>
+<wire x1="12.3" y1="8.2" x2="12.5" y2="8.4" width="0.254" layer="1"/>
+<wire x1="12.5" y1="8.4" x2="12.5" y2="9.77" width="0.254" layer="1"/>
+<wire x1="12.5" y1="9.77" x2="12.45" y2="9.82" width="0.254" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="D3" pad="A"/>
@@ -2490,15 +2515,20 @@ design rules under a new name.</description>
 <wire x1="15.15" y1="16.5" x2="15.1" y2="16.45" width="0.4064" layer="1"/>
 <wire x1="15.1" y1="16.45" x2="15.85" y2="16.45" width="0.508" layer="1"/>
 <wire x1="15.85" y1="16.45" x2="16.3" y2="16" width="0.508" layer="1"/>
-<wire x1="16.3" y1="16" x2="16.3" y2="14" width="0.508" layer="1"/>
-<wire x1="17.05" y1="13.25" x2="17.05" y2="12.3" width="0.508" layer="1"/>
-<wire x1="16.3" y1="14" x2="17.05" y2="13.25" width="0.508" layer="1"/>
+<wire x1="16.3" y1="16" x2="16.3" y2="14.51" width="0.508" layer="1"/>
+<wire x1="16.3" y1="14.51" x2="16.3" y2="14" width="0.508" layer="1"/>
+<wire x1="16.97" y1="13.33" x2="16.97" y2="12.38" width="0.508" layer="1"/>
+<wire x1="16.97" y1="12.38" x2="17.05" y2="12.3" width="0.508" layer="1"/>
+<wire x1="16.3" y1="14" x2="16.97" y2="13.33" width="0.508" layer="1"/>
 <wire x1="3.49" y1="9.678" x2="3.54" y2="9.628" width="0.2" layer="1"/>
 <wire x1="3.54" y1="9.628" x2="3.54" y2="9.16" width="0.2" layer="1"/>
 <wire x1="3.54" y1="9.16" x2="4" y2="8.7" width="0.2" layer="1"/>
 <wire x1="4" y1="8.7" x2="4" y2="7.845" width="0.2" layer="1"/>
+<contactref element="R14" pad="2"/>
+<wire x1="17.25" y1="14.458" x2="16.352" y2="14.458" width="0.2" layer="1"/>
+<wire x1="16.352" y1="14.458" x2="16.3" y2="14.51" width="0.2" layer="1"/>
 </signal>
-<signal name="N$12">
+<signal name="UVCC">
 <contactref element="Q1" pad="2"/>
 <contactref element="D5" pad="C"/>
 <contactref element="U2" pad="1"/>
@@ -2513,11 +2543,12 @@ design rules under a new name.</description>
 <wire x1="16.2499" y1="17.6" x2="16.25" y2="17.5999" width="0.4064" layer="1"/>
 <wire x1="14.5" y1="17.6" x2="16.2499" y2="17.6" width="0.4064" layer="1"/>
 <wire x1="14" y1="15.6" x2="14.4" y2="15.2" width="0.4064" layer="1"/>
-<wire x1="14.4" y1="15.2" x2="14.8" y2="15.2" width="0.4064" layer="1"/>
-<wire x1="14.8" y1="15.2" x2="15.1" y2="14.9" width="0.4064" layer="1"/>
+<wire x1="14.4" y1="15.2" x2="14.69" y2="15.2" width="0.4064" layer="1"/>
+<wire x1="14.69" y1="15.2" x2="15.1" y2="14.79" width="0.4064" layer="1"/>
 <wire x1="14" y1="17.1" x2="14" y2="15.6" width="0.4064" layer="1"/>
-<wire x1="15.1" y1="14.9" x2="15.1" y2="14.15" width="0.4064" layer="1"/>
+<wire x1="15.1" y1="14.79" x2="15.1" y2="14.15" width="0.4064" layer="1"/>
 <wire x1="15.15" y1="12.3" x2="15.15" y2="14.1" width="0.6096" layer="1"/>
+<wire x1="16.25" y1="17.5999" x2="16.27" y2="17.5799" width="0.2" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U2" pad="5"/>
@@ -2678,6 +2709,13 @@ design rules under a new name.</description>
 <approved hash="3,1,f822e26d3e790dce"/>
 <approved hash="3,1,8227d825d84d824f"/>
 <approved hash="3,1,b44cceaeee86d404"/>
+<approved hash="20,1,f5c8d34549704d88"/>
+<approved hash="20,1,b9719a315ac39ad7"/>
+<approved hash="3,1,be3fbc3dbd81bf83"/>
+<approved hash="3,1,be11bc13bc33be31"/>
+<approved hash="3,1,3201dc03dc343236"/>
+<approved hash="3,1,c43ca22ebc39320c"/>
+<approved hash="3,1,be5ebc5cbc8ebe8c"/>
 </errors>
 </board>
 </drawing>
