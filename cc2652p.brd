@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -1887,6 +1887,41 @@ design rules under a new name.</description>
 <wire x1="21.06" y1="15.4" x2="21.12" y2="15.34" width="0.2" layer="1"/>
 <wire x1="21.12" y1="16.918" x2="21.12" y2="15.46" width="0.2" layer="1"/>
 <wire x1="21.12" y1="15.46" x2="21.06" y2="15.4" width="0.2" layer="1"/>
+<via x="21.71" y="14.5" extent="1-16" drill="0.3"/>
+<via x="21.74" y="13.75" extent="1-16" drill="0.3"/>
+<via x="21.76" y="12.96" extent="1-16" drill="0.3"/>
+<via x="22.45" y="14.51" extent="1-16" drill="0.3"/>
+<via x="22.46" y="13.72" extent="1-16" drill="0.3"/>
+<via x="22.47" y="12.95" extent="1-16" drill="0.3"/>
+<wire x1="22.46" y1="13.72" x2="22.46" y2="14.5" width="0.3048" layer="16"/>
+<wire x1="22.45" y1="14.51" x2="22.46" y2="14.5" width="0.3048" layer="16"/>
+<wire x1="21.71" y1="14.5" x2="22.46" y2="14.5" width="0.3048" layer="16"/>
+<wire x1="22.46" y1="14.5" x2="22.49" y2="14.47" width="0.3048" layer="16"/>
+<wire x1="21.71" y1="14.5" x2="21.74" y2="14.47" width="0.3048" layer="16"/>
+<wire x1="21.74" y1="14.47" x2="21.74" y2="13.75" width="0.3048" layer="16"/>
+<wire x1="21.76" y1="13.72" x2="22.46" y2="13.72" width="0.3048" layer="16"/>
+<wire x1="21.74" y1="13.75" x2="21.76" y2="13.73" width="0.3048" layer="16"/>
+<wire x1="21.76" y1="13.73" x2="21.76" y2="13.72" width="0.3048" layer="16"/>
+<wire x1="21.76" y1="13.72" x2="21.76" y2="12.96" width="0.3048" layer="16"/>
+<wire x1="22.47" y1="12.95" x2="21.77" y2="12.95" width="0.3048" layer="16"/>
+<wire x1="21.76" y1="12.96" x2="21.77" y2="12.95" width="0.3048" layer="16"/>
+<wire x1="22.46" y1="13.72" x2="22.46" y2="12.96" width="0.3048" layer="16"/>
+<wire x1="22.47" y1="12.95" x2="22.46" y2="12.96" width="0.3048" layer="16"/>
+<polygon width="0.3048" layer="16">
+<vertex x="21.63" y="14.58"/>
+<vertex x="21.63" y="12.92"/>
+<vertex x="22.5" y="12.92"/>
+<vertex x="22.53" y="12.95"/>
+<vertex x="22.53" y="14.51"/>
+<vertex x="22.46" y="14.58"/>
+</polygon>
+<wire x1="21.63" y1="14.58" x2="21.63" y2="12.93" width="0.3048" layer="16"/>
+<wire x1="21.63" y1="12.93" x2="21.64" y2="12.92" width="0.3048" layer="16"/>
+<wire x1="21.64" y1="12.92" x2="22.42" y2="12.92" width="0.3048" layer="16"/>
+<wire x1="22.42" y1="14.48" x2="22.45" y2="14.51" width="0.3048" layer="16"/>
+<wire x1="22.42" y1="14.48" x2="22.42" y2="12.92" width="0.3048" layer="16"/>
+<wire x1="22.45" y1="14.51" x2="22.38" y2="14.58" width="0.3048" layer="16"/>
+<wire x1="22.38" y1="14.58" x2="21.63" y2="14.58" width="0.3048" layer="16"/>
 </signal>
 <signal name="EN">
 <contactref element="U2" pad="3"/>
@@ -2716,6 +2751,7 @@ design rules under a new name.</description>
 <approved hash="3,1,3201dc03dc343236"/>
 <approved hash="3,1,c43ca22ebc39320c"/>
 <approved hash="3,1,be5ebc5cbc8ebe8c"/>
+<approved hash="20,16,35c5f696a821740b"/>
 </errors>
 </board>
 </drawing>
