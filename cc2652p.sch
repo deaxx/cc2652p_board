@@ -4012,10 +4012,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U3" library="XC61CN3202MRG" deviceset="XC61CN3202MR-G" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R13" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="10k"/>
+<part name="R13" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="100k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R14" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="10k"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4262,6 +4263,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="P+7" gate="1" x="96.52" y="198.12" smashed="yes">
 <attribute name="VALUE" x="93.98" y="193.04" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="P+8" gate="1" x="104.14" y="55.88" smashed="yes" rot="R270">
+<attribute name="VALUE" x="96.52" y="55.88" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4486,11 +4490,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$1" gate="G$1" pin="GND_4"/>
 <wire x1="43.18" y1="33.02" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<label x="96.52" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
@@ -5105,6 +5104,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="96.52" y1="193.04" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="UVCC" class="0">
