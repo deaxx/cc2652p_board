@@ -3297,36 +3297,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12" y1="19" x2="15" y2="19" width="0.127" layer="21"/>
 <wire x1="15" y1="19" x2="15" y2="23" width="0.127" layer="21"/>
 <wire x1="15" y1="23" x2="12" y2="23" width="0.127" layer="21"/>
-<smd name="GND" x="-0.2" y="1.4" dx="1.6" dy="0.94" layer="1"/>
-<smd name="VCC" x="-0.2" y="2.67" dx="1.6" dy="0.94" layer="1"/>
-<smd name="TCKC" x="-0.2" y="3.94" dx="1.6" dy="0.94" layer="1"/>
-<smd name="TMSC" x="-0.2" y="5.21" dx="1.6" dy="0.94" layer="1"/>
-<smd name="RES" x="-0.2" y="6.48" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO13" x="-0.2" y="7.75" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO12" x="-0.2" y="9.02" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO11" x="-0.2" y="10.29" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO10" x="-0.2" y="11.56" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO9" x="-0.2" y="12.83" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO8" x="-0.2" y="14.1" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO7" x="-0.2" y="15.37" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO6" x="-0.2" y="16.64" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO14" x="16.6" y="1.4" dx="1.6" dy="0.94" layer="1" roundness="4"/>
-<smd name="DIO15" x="16.6" y="2.67" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO16" x="16.6" y="3.94" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO17" x="16.6" y="5.21" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO18" x="16.6" y="6.48" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO19" x="16.6" y="7.75" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO20" x="16.6" y="9.02" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO21" x="16.6" y="10.29" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO22" x="16.6" y="11.56" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO23" x="16.6" y="12.83" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO24" x="16.6" y="14.1" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO25" x="16.6" y="15.37" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO26" x="16.6" y="16.64" dx="1.6" dy="0.94" layer="1"/>
-<smd name="GND@1" x="16.6" y="22" dx="1.6" dy="0.94" layer="1"/>
-<smd name="ANT" x="16.6" y="23.27" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO5" x="-0.2" y="17.91" dx="1.6" dy="0.94" layer="1"/>
-<smd name="DIO27" x="16.6" y="17.91" dx="1.6" dy="0.94" layer="1"/>
+<smd name="GND" x="-0.073" y="1.4" dx="1.6" dy="0.94" layer="1"/>
+<smd name="VCC" x="-0.073" y="2.67" dx="1.6" dy="0.94" layer="1"/>
+<smd name="TCKC" x="-0.073" y="3.94" dx="1.6" dy="0.94" layer="1"/>
+<smd name="TMSC" x="-0.073" y="5.21" dx="1.6" dy="0.94" layer="1"/>
+<smd name="RES" x="-0.073" y="6.48" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO13" x="-0.073" y="7.75" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO12" x="-0.073" y="9.02" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO11" x="-0.073" y="10.29" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO10" x="-0.073" y="11.56" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO9" x="-0.073" y="12.83" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO8" x="-0.073" y="14.1" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO7" x="-0.073" y="15.37" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO6" x="-0.073" y="16.64" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO14" x="16.346" y="1.4" dx="1.6" dy="0.94" layer="1" roundness="4"/>
+<smd name="DIO15" x="16.346" y="2.67" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO16" x="16.346" y="3.94" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO17" x="16.346" y="5.21" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO18" x="16.346" y="6.48" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO19" x="16.346" y="7.75" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO20" x="16.346" y="9.02" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO21" x="16.346" y="10.29" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO22" x="16.346" y="11.56" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO23" x="16.346" y="12.83" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO24" x="16.346" y="14.1" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO25" x="16.346" y="15.37" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO26" x="16.346" y="16.64" dx="1.6" dy="0.94" layer="1"/>
+<smd name="GND@1" x="16.346" y="22" dx="1.6" dy="0.94" layer="1"/>
+<smd name="ANT" x="16.346" y="23.27" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO5" x="-0.073" y="17.91" dx="1.6" dy="0.94" layer="1"/>
+<smd name="DIO27" x="16.346" y="17.91" dx="1.6" dy="0.94" layer="1"/>
 <circle x="13.5" y="21.1" radius="0.989946875" width="0.127" layer="21"/>
 </package>
 </packages>
@@ -5508,6 +5508,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="99.06" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <junction x="99.06" y="43.18"/>
 <label x="91.44" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="!RESET"/>
+<wire x1="195.58" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
+<label x="198.12" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="13" class="0">
