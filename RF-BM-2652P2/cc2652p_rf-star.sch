@@ -5245,13 +5245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-12.7" y1="142.24" x2="-10.16" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DIO_12" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="TXD"/>
-<wire x1="66.04" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
-<label x="68.58" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TMS" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="SWDIO/TMS"/>
@@ -5318,13 +5311,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="106.68" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
 <label x="109.22" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIO_13" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="RXD"/>
-<wire x1="66.04" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
-<label x="68.58" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5526,6 +5512,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="106.68" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <label x="109.22" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="RXD"/>
+<wire x1="66.04" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<label x="73.66" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="12" class="0">
 <segment>
@@ -5537,6 +5528,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="106.68" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <label x="109.22" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="TXD"/>
+<wire x1="66.04" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
+<label x="73.66" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11" class="0">
