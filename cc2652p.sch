@@ -4925,6 +4925,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 <label x="116.84" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="!RESET"/>
+<wire x1="182.88" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<label x="185.42" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIO_14" class="0">
 <segment>
