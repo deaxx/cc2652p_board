@@ -9,6 +9,20 @@
 <grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -50,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
@@ -102,18 +117,34 @@
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="V3OUTLINE" color="7" fill="1" visible="no" active="yes"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="188" name="188bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -153,6 +184,7 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="253" name="DNP" color="62" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
@@ -213,7 +245,41 @@
 <text x="2.8" y="32.9" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">13</text>
 <text x="5.4" y="26.1" size="0.8128" layer="25" font="vector" ratio="12">JTAG</text>
 <text x="3.8" y="25.5" size="1.27" layer="25" font="vector" ratio="20" rot="R90">.</text>
-<text x="21.3" y="40.3" size="1.27" layer="26" font="vector" ratio="12" rot="MR90">t.me/deaxx</text>
+<text x="12.664" y="1.057" size="1.4224" layer="26" font="vector" ratio="12" rot="MR90">t.me/deaxx</text>
+<text x="2.69635625" y="49.163490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO7</text>
+<text x="2.82335625" y="46.623490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO8</text>
+<text x="2.82335625" y="44.083490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO9</text>
+<text x="2.82335625" y="41.416490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO10</text>
+<text x="2.82335625" y="38.876490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO11</text>
+<text x="2.82335625" y="36.336490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO12</text>
+<text x="2.69635625" y="33.923490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO13</text>
+<text x="2.69635625" y="31.383490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO14</text>
+<text x="2.69635625" y="28.716490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO15</text>
+<text x="2.82335625" y="26.303490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">3V3</text>
+<text x="2.82335625" y="26.303490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">3V3</text>
+<text x="2.82335625" y="23.763490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TMS</text>
+<text x="2.82335625" y="21.223490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TCK</text>
+<text x="2.82335625" y="18.683490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TDO</text>
+<text x="2.82335625" y="16.016490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TDI</text>
+<text x="2.82335625" y="13.603490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">GND</text>
+<text x="2.82335625" y="10.936490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">+5V</text>
+<text x="22.12735625" y="48.147490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO30</text>
+<text x="22.12735625" y="45.607490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO29</text>
+<text x="22.12735625" y="43.067490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO28</text>
+<text x="22.12735625" y="40.527490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO27</text>
+<text x="22.12735625" y="38.114490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO26</text>
+<text x="22.12735625" y="35.447490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO25</text>
+<text x="22.12735625" y="32.907490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO24</text>
+<text x="22.00035625" y="30.367490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO23</text>
+<text x="22.00035625" y="27.827490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO22</text>
+<text x="22.12735625" y="25.287490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">RESET</text>
+<text x="22.12735625" y="22.747490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO21</text>
+<text x="22.12735625" y="20.207490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO20</text>
+<text x="22.25435625" y="17.667490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO19</text>
+<text x="22.25435625" y="15.127490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO18</text>
+<text x="22.25435625" y="12.587490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">BAT</text>
+<text x="22.25435625" y="17.667490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO19</text>
+<text x="22.25435625" y="9.920490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
