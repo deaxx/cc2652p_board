@@ -5913,6 +5913,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="68.58" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="76.2" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="CS"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="50.8" x2="276.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="274.32" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19" class="0">
 <segment>
@@ -6003,13 +6009,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="68.58" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CS"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="50.8" x2="276.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
