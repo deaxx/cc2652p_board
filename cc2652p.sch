@@ -5023,8 +5023,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="43.18" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$2" gate="G$1" x="238.76" y="58.42" smashed="yes"/>
-<instance part="R1" gate="G$1" x="274.32" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="274.32" y="54.356" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<instance part="R1" gate="G$1" x="279.4" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="279.4" y="54.356" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="C3" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="214.376" y="47.879" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -5688,6 +5688,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <label x="116.84" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="CS"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="55.88" x2="269.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="259.08" y="55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIO_21" class="0">
 <segment>
@@ -5955,9 +5961,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="55.88" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="55.88" x2="287.02" y2="63.5" width="0.1524" layer="91"/>
-<label x="287.02" y="58.42" size="1.778" layer="95" rot="R90"/>
+<wire x1="289.56" y1="55.88" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="55.88" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
+<label x="292.1" y="58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
@@ -6031,13 +6037,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="73.66" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="73.66" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="CS"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
