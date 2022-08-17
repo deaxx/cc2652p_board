@@ -5403,90 +5403,162 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="SI2323DS">
+<library name="pimoroni-misc">
 <packages>
-<package name="SOT23">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-reflow soldering</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="-0.7636" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.2032" layer="21"/>
-<wire x1="0.7636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.2032" layer="21"/>
-<text x="1.27143125" y="1.27143125" size="1.017140625" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.907809375" y="-3.179690625" size="0.814" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.50066875" y1="-0.300340625" x2="0.5001" y2="0.3" layer="35"/>
-<rectangle x1="-0.228996875" y1="0.71243125" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.71249375" y1="-1.29775" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.170459375" y1="-1.297690625" x2="-0.7112" y2="-0.7112" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<package name="SOLDER_JUMPER_CLOSED">
+<polygon width="0.2" layer="1">
+<vertex x="-0.4" y="-0.7" curve="-90"/>
+<vertex x="-1.1" y="0" curve="-90"/>
+<vertex x="-0.4" y="0.7"/>
+</polygon>
+<smd name="1" x="-0.7" y="0" dx="0.4" dy="1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.7" y="0" dx="0.4" dy="1" layer="1" stop="no" cream="no"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.2" layer="1"/>
+<polygon width="0.2" layer="1">
+<vertex x="0.4" y="0.7" curve="-90"/>
+<vertex x="1.1" y="0" curve="-90"/>
+<vertex x="0.4" y="-0.7"/>
+</polygon>
+<polygon width="0.4" layer="29">
+<vertex x="-0.4" y="-0.7"/>
+<vertex x="-0.4" y="0.7" curve="90"/>
+<vertex x="-1.1" y="0" curve="90"/>
+</polygon>
+<polygon width="0.4" layer="29">
+<vertex x="0.4" y="0.7"/>
+<vertex x="0.4" y="-0.7" curve="90"/>
+<vertex x="1.1" y="0" curve="90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-0.8" y="0.3"/>
+<vertex x="0.8" y="0.3"/>
+<vertex x="0.8" y="-0.3"/>
+<vertex x="-0.8" y="-0.3"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-0.2" y="-1.1"/>
+<vertex x="-0.2" y="-0.2"/>
+<vertex x="0.2" y="-0.2"/>
+<vertex x="0.2" y="-1.1"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-0.2" y="0.2"/>
+<vertex x="-0.2" y="1.1"/>
+<vertex x="0.2" y="1.1"/>
+<vertex x="0.2" y="0.2"/>
+</polygon>
+</package>
+<package name="SOLDER_JUMPER_CLOSED_THICK">
+<polygon width="0.2" layer="1">
+<vertex x="-0.6" y="-0.7" curve="-90"/>
+<vertex x="-1.3" y="0" curve="-90"/>
+<vertex x="-0.6" y="0.7"/>
+</polygon>
+<smd name="1" x="-1.2" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="1.2" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.6" layer="1"/>
+<polygon width="0.2" layer="1">
+<vertex x="0.6" y="0.7" curve="-90"/>
+<vertex x="1.3" y="0" curve="-90"/>
+<vertex x="0.6" y="-0.7"/>
+</polygon>
+<polygon width="0.4" layer="29">
+<vertex x="-0.6" y="-0.7"/>
+<vertex x="-0.6" y="0.7" curve="90"/>
+<vertex x="-1.3" y="0" curve="90"/>
+</polygon>
+<polygon width="0.4" layer="29">
+<vertex x="0.6" y="0.7"/>
+<vertex x="0.6" y="-0.7" curve="90"/>
+<vertex x="1.3" y="0" curve="90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-1" y="0.3"/>
+<vertex x="1" y="0.3"/>
+<vertex x="1" y="-0.3"/>
+<vertex x="-1" y="-0.3"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-0.4" y="-1.6"/>
+<vertex x="-0.4" y="-0.2"/>
+<vertex x="0.4" y="-0.2"/>
+<vertex x="0.4" y="-1.6"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-0.4" y="0.2"/>
+<vertex x="-0.4" y="1.6"/>
+<vertex x="0.4" y="1.6"/>
+<vertex x="0.4" y="0.2"/>
+</polygon>
+</package>
+<package name="SOLDER_JUMPER_CLOSED_HIDDEN">
+<smd name="1" x="-0.7" y="0" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.7" y="0" dx="0.2" dy="0.2" layer="1" stop="no" cream="no"/>
+<wire x1="-0.7" y1="0" x2="0.7" y2="0" width="0.2" layer="1"/>
+<polygon width="0.2" layer="41">
+<vertex x="-0.5" y="-1.2"/>
+<vertex x="-0.5" y="-0.2"/>
+<vertex x="0.5" y="-0.2"/>
+<vertex x="0.5" y="-1.2"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-0.5" y="0.2"/>
+<vertex x="-0.5" y="1.2"/>
+<vertex x="0.5" y="1.2"/>
+<vertex x="0.5" y="0.2"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="EMOS-PD">
-<wire x1="-1.0795" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-2.2225" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.2225" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="-1.5875" y1="2.2225" x2="0" y2="2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.2225" x2="1.27" y2="2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.2225" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="2.2225" x2="1.27" y2="-2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="2.2225" width="0.1524" layer="94"/>
-<circle x="0" y="-2.2225" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="2.2225" radius="0.127" width="0.4064" layer="94"/>
-<text x="2.54383125" y="-2.54383125" size="1.78068125" layer="96">&gt;VALUE</text>
-<text x="2.542209375" y="0" size="1.77955" layer="95">&gt;NAME</text>
-<text x="0.6359375" y="2.86171875" size="1.0175" layer="95">D</text>
-<text x="0.63504375" y="-3.81026875" size="1.01606875" layer="95">S</text>
-<text x="-3.81508125" y="-1.907540625" size="1.017359375" layer="95">G</text>
-<rectangle x1="-2.03526875" y1="1.39925" x2="-1.524" y2="2.921" layer="94"/>
-<rectangle x1="-2.0329" y1="-0.7623375" x2="-1.524" y2="0.762" layer="94"/>
-<rectangle x1="-2.03278125" y1="-2.92213125" x2="-1.524" y2="-1.397" layer="94"/>
-<rectangle x1="0.76304375" y1="-0.572284375" x2="1.778" y2="-0.3175" layer="94" rot="R180"/>
-<polygon width="0.1016" layer="94">
-<vertex x="-0.0635" y="0"/>
-<vertex x="-1.0795" y="-0.635"/>
-<vertex x="-1.0795" y="0.635"/>
+<symbol name="SOLDER_JUMPER_CLOSED">
+<pin name="1" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.635" y="1.016"/>
+<vertex x="-0.635" y="-1.016" curve="-90"/>
+<vertex x="-1.651" y="0" curve="-90"/>
 </polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.27" y="-0.3175"/>
-<vertex x="1.778" y="0.4445"/>
-<vertex x="0.762" y="0.4445"/>
+<polygon width="0.254" layer="94">
+<vertex x="0.635" y="-1.016"/>
+<vertex x="0.635" y="1.016" curve="-90"/>
+<vertex x="1.651" y="0" curve="-90"/>
 </polygon>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<wire x1="-1.016" y1="0" x2="1.016" y2="0" width="0.508" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SI2323DS" prefix="Q">
-<description>&lt;b&gt;P-Channel MOSFET&lt;/b&gt; </description>
+<deviceset name="SOLDER_JUMPER_CLOSED" prefix="SJ">
 <gates>
-<gate name="G$1" symbol="EMOS-PD" x="0" y="0"/>
+<gate name="G$1" symbol="SOLDER_JUMPER_CLOSED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="" package="SOLDER_JUMPER_CLOSED">
 <connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" P-Channel 20V 3.7A (Ta) 750mW (Ta) Surface Mount SOT-23-3 (TO-236) "/>
-<attribute name="MF" value="Vishay Siliconix"/>
-<attribute name="MP" value="SI2323DS"/>
-<attribute name="PACKAGE" value="SOT-23-3 Vishay Siliconix"/>
-<attribute name="PRICE" value="None"/>
-</technology>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THICK" package="SOLDER_JUMPER_CLOSED_THICK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HIDDEN" package="SOLDER_JUMPER_CLOSED_HIDDEN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5586,7 +5658,7 @@ reflow soldering</description>
 <part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="TANTALUM-2917(7343-METRIC)" package3d_urn="urn:adsk.eagle:package:16290891/2" technology="_" value="220uF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="3V3_USB"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="3V3_USB"/>
-<part name="Q2" library="SI2323DS" deviceset="SI2323DS" device=""/>
+<part name="PSM" library="pimoroni-misc" deviceset="SOLDER_JUMPER_CLOSED" device="" value="PSM"/>
 </parts>
 <sheets>
 <sheet>
@@ -5861,10 +5933,7 @@ reflow soldering</description>
 <instance part="SUPPLY2" gate="1" x="162.56" y="205.74" smashed="yes">
 <attribute name="VALUE" x="163.83" y="207.01" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="172.72" y="198.12" smashed="yes" rot="R90">
-<attribute name="VALUE" x="175.26383125" y="200.66383125" size="1.78068125" layer="96"/>
-<attribute name="NAME" x="170.18" y="200.662209375" size="1.77955" layer="95"/>
-</instance>
+<instance part="PSM" gate="G$1" x="172.72" y="198.12" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5970,13 +6039,9 @@ reflow soldering</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="190.5" x2="162.56" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="187.96" x2="162.56" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="187.96" x2="175.26" y2="187.96" width="0.1524" layer="91"/>
 <junction x="162.56" y="187.96"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="175.26" y1="187.96" x2="162.56" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="193.04" x2="175.26" y2="187.96" width="0.1524" layer="91"/>
-<junction x="175.26" y="187.96"/>
+<wire x1="180.34" y1="187.96" x2="162.56" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -6789,13 +6854,13 @@ reflow soldering</description>
 <label x="238.76" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="198.12" x2="180.34" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="198.12" x2="180.34" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="180.34" y1="198.12" x2="185.42" y2="198.12" width="0.1524" layer="91"/>
 <junction x="180.34" y="198.12"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
+<pinref part="PSM" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="198.12" x2="180.34" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CC2" class="0">
@@ -6874,11 +6939,11 @@ reflow soldering</description>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="157.48" y1="198.12" x2="162.56" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="198.12" x2="167.64" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="198.12" x2="170.18" y2="198.12" width="0.1524" layer="91"/>
 <junction x="162.56" y="198.12"/>
 <wire x1="162.56" y1="198.12" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="1" pin="V+"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="PSM" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
