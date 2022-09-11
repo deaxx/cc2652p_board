@@ -1311,18 +1311,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <library name="TYPE-C-31-M-12">
 <packages>
 <package name="HRO_TYPE-C-31-M-12">
-<wire x1="-4.645" y1="4.73" x2="-4.645" y2="3.63" width="0" layer="46"/>
-<wire x1="-4.645" y1="3.63" x2="-4.32" y2="3.305" width="0" layer="46" curve="90"/>
-<wire x1="-4.32" y1="3.305" x2="-3.995" y2="3.63" width="0" layer="46" curve="90"/>
-<wire x1="-3.995" y1="3.63" x2="-3.995" y2="4.73" width="0" layer="46"/>
-<wire x1="-3.995" y1="4.73" x2="-4.32" y2="5.055" width="0" layer="46" curve="90"/>
-<wire x1="-4.32" y1="5.055" x2="-4.645" y2="4.73" width="0" layer="46" curve="90"/>
-<wire x1="3.995" y1="4.73" x2="3.995" y2="3.63" width="0" layer="46"/>
-<wire x1="3.995" y1="3.63" x2="4.32" y2="3.305" width="0" layer="46" curve="90"/>
-<wire x1="4.32" y1="3.305" x2="4.645" y2="3.63" width="0" layer="46" curve="90"/>
-<wire x1="4.645" y1="3.63" x2="4.645" y2="4.73" width="0" layer="46"/>
-<wire x1="4.645" y1="4.73" x2="4.32" y2="5.055" width="0" layer="46" curve="90"/>
-<wire x1="4.32" y1="5.055" x2="3.995" y2="4.73" width="0" layer="46" curve="90"/>
 <wire x1="-4.645" y1="0.3" x2="-4.645" y2="-0.3" width="0" layer="46"/>
 <wire x1="-4.645" y1="-0.3" x2="-4.32" y2="-0.625" width="0" layer="46" curve="90"/>
 <wire x1="-4.32" y1="-0.625" x2="-3.995" y2="-0.3" width="0" layer="46" curve="90"/>
@@ -1364,12 +1352,24 @@ PTH and SMD connector options available.&lt;/p&gt;
 <smd name="B5" x="1.75" y="5.095" dx="0.3" dy="1.45" layer="1"/>
 <smd name="B4A9" x="2.45" y="5.095" dx="0.6" dy="1.45" layer="1"/>
 <smd name="B1A12" x="3.25" y="5.095" dx="0.6" dy="1.45" layer="1"/>
-<pad name="S1" x="-4.32" y="4.18" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
-<pad name="S2" x="4.32" y="4.18" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
 <pad name="S3" x="-4.32" y="0" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
 <pad name="S4" x="4.32" y="0" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
 <hole x="-2.89" y="3.65" drill="0.7"/>
 <hole x="2.89" y="3.65" drill="0.7"/>
+<wire x1="3.9985625" y1="4.716084375" x2="3.9985625" y2="3.616084375" width="0.001" layer="46"/>
+<wire x1="3.9935625" y1="3.636084375" x2="3.9935625" y2="4.736084375" width="0.01" layer="46"/>
+<wire x1="3.9935625" y1="4.736084375" x2="4.6435625" y2="4.736084375" width="0.01" layer="46" curve="-180"/>
+<wire x1="4.6435625" y1="4.736084375" x2="4.6435625" y2="3.636084375" width="0.01" layer="46"/>
+<wire x1="4.6435625" y1="3.636084375" x2="3.9935625" y2="3.636084375" width="0.01" layer="46" curve="-180"/>
+<wire x1="-4.637753125" y1="4.7154375" x2="-4.637753125" y2="3.6154375" width="0.001" layer="46"/>
+<wire x1="-4.642753125" y1="3.6354375" x2="-4.642753125" y2="4.7354375" width="0.01" layer="46"/>
+<wire x1="-4.642753125" y1="4.7354375" x2="-3.992753125" y2="4.7354375" width="0.01" layer="46" curve="-180"/>
+<wire x1="-3.992753125" y1="4.7354375" x2="-3.992753125" y2="3.6354375" width="0.01" layer="46"/>
+<wire x1="-3.992753125" y1="3.6354375" x2="-4.642753125" y2="3.6354375" width="0.01" layer="46" curve="-180"/>
+<pad name="S5" x="-4.315346875" y="4.190584375" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
+<pad name="S6" x="4.317634375" y="4.180359375" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
+<pad name="S1" x="-4.313071875" y="4.18173125" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
+<pad name="S2" x="4.318146875" y="4.187325" drill="0.65" diameter="1.05" shape="long" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -1395,7 +1395,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 </symbols>
 <devicesets>
 <deviceset name="TYPE-C-31-M-12" prefix="J">
-<description>USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS  </description>
+<description>USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS  &lt;a href="https://pricing.snapeda.com/parts/TYPE-C-31-M-12/HRO%20Electronics%20Co.%2C%20Ltd./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TYPE-C-31-M-12" x="0" y="0"/>
 </gates>
@@ -1411,12 +1411,12 @@ PTH and SMD connector options available.&lt;/p&gt;
 <connect gate="G$1" pin="GND" pad="A1B12 B1A12"/>
 <connect gate="G$1" pin="SBU1" pad="A8"/>
 <connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="SHIELD" pad="S3 S4 S5 S6"/>
 <connect gate="G$1" pin="VBUS" pad="A4B9 B4A9"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="AVAILABILITY" value="Not in stock"/>
 <attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS "/>
 <attribute name="MF" value="HRO Electronics Co., Ltd."/>
 <attribute name="MP" value="TYPE-C-31-M-12"/>
@@ -5645,6 +5645,87 @@ reflow soldering</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MX25R8035FZUIL0">
+<packages>
+<package name="PSON50P200X300X60-9N">
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.765" y1="1.3" x2="-1.765" y2="-1.3" width="0.05" layer="39"/>
+<wire x1="-1.765" y1="-1.3" x2="1.765" y2="-1.3" width="0.05" layer="39"/>
+<wire x1="1.765" y1="-1.3" x2="1.765" y2="1.3" width="0.05" layer="39"/>
+<wire x1="1.765" y1="1.3" x2="-1.765" y2="1.3" width="0.05" layer="39"/>
+<circle x="-1.257671875" y="1.314334375" radius="0.1" width="0.2" layer="21"/>
+<text x="-1.765" y="1.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.765" y="-1.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="-0.045" y1="0.02" x2="0.045" y2="0.76" layer="31"/>
+<rectangle x1="-0.045" y1="-0.76" x2="0.045" y2="-0.02" layer="31"/>
+<smd name="1" x="-1.235" y="0.75" dx="0.56" dy="0.35" layer="1"/>
+<smd name="2" x="-1.235" y="0.25" dx="0.56" dy="0.35" layer="1"/>
+<smd name="3" x="-1.235" y="-0.25" dx="0.56" dy="0.35" layer="1"/>
+<smd name="4" x="-1.235" y="-0.75" dx="0.56" dy="0.35" layer="1"/>
+<smd name="5" x="1.235" y="-0.75" dx="0.56" dy="0.35" layer="1"/>
+<smd name="6" x="1.235" y="-0.25" dx="0.56" dy="0.35" layer="1"/>
+<smd name="7" x="1.235" y="0.25" dx="0.56" dy="0.35" layer="1"/>
+<smd name="8" x="1.235" y="0.75" dx="0.56" dy="0.35" layer="1"/>
+<smd name="9" x="0" y="0" dx="0.2" dy="1.6" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MX25R8035FZUIL0">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="11.049" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!CS" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SI/SIO0" x="-17.78" y="5.08" length="middle"/>
+<pin name="SO/SIO1" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SCLK" x="-17.78" y="2.54" length="middle" direction="in" function="clk"/>
+<pin name="!WP!/SIO2" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="!RESET!/SIO3" x="-17.78" y="0" length="middle"/>
+<pin name="VCC" x="-17.78" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="EXP" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MX25R8035FZUIL0" prefix="U">
+<description>FLASH - NOR Memory IC 8Mb (1M x 8) SPI - Quad I/O 33 MHz 8-USON (2x3)  &lt;a href="https://pricing.snapeda.com/parts/MX25R8035FZUIL0/Macronix/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MX25R8035FZUIL0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PSON50P200X300X60-9N">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!RESET!/SIO3" pad="7"/>
+<connect gate="G$1" pin="!WP!/SIO2" pad="3"/>
+<connect gate="G$1" pin="EXP" pad="9"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCLK" pad="6"/>
+<connect gate="G$1" pin="SI/SIO0" pad="5"/>
+<connect gate="G$1" pin="SO/SIO1" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" NOR Flash Serial 1.8V/3.3V 8M-bit 8M/4M/2M x 1/2-bit/4-bit 12ns 8-Pin USON EP "/>
+<attribute name="MF" value="Macronix"/>
+<attribute name="MP" value="MX25R8035FZUIL0"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MX25R8035FZUIL0/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5699,7 +5780,7 @@ reflow soldering</description>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="TPD2E001DZDR" deviceset="TPD2E001DZDR" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D5" library="pimoroni-passives" deviceset="DIODE-SCHOTTKY" device=""/>
+<part name="D5" library="pimoroni-passives" deviceset="DIODE-SCHOTTKY" device="" value="MBR0540"/>
 <part name="Q1" library="pimoroni-passives" deviceset="MOSFET-PCHANNEL" device="" value="SI2323DS"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -5746,6 +5827,8 @@ reflow soldering</description>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SJ1" library="pimoroni-misc" deviceset="SMALL_SOLDER_JUMPER_CLOSED" device="" value="PSM"/>
+<part name="U5" library="MX25R8035FZUIL0" deviceset="MX25R8035FZUIL0" device=""/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5756,8 +5839,8 @@ reflow soldering</description>
 <wire x1="193.04" y1="187.96" x2="172.72" y2="170.18" width="0.6096" layer="94"/>
 <wire x1="172.72" y1="160.02" x2="193.04" y2="147.32" width="0.6096" layer="94"/>
 <wire x1="172.72" y1="147.32" x2="193.04" y2="160.02" width="0.6096" layer="94"/>
-<wire x1="205.74" y1="86.36" x2="271.78" y2="38.1" width="0.6096" layer="94"/>
-<wire x1="203.2" y1="38.1" x2="269.24" y2="86.36" width="0.6096" layer="94"/>
+<wire x1="223.52" y1="86.36" x2="289.56" y2="40.64" width="0.6096" layer="94"/>
+<wire x1="226.06" y1="40.64" x2="292.1" y2="86.36" width="0.6096" layer="94"/>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="60.96" y="134.62" smashed="yes">
@@ -5999,24 +6082,24 @@ reflow soldering</description>
 <instance part="P+5" gate="1" x="38.1" y="147.32" smashed="yes" rot="R90">
 <attribute name="VALUE" x="43.18" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$2" gate="G$1" x="238.76" y="58.42" smashed="yes"/>
-<instance part="R1" gate="G$1" x="271.78" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="273.304" y="66.04" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<instance part="U$2" gate="G$1" x="259.08" y="71.12" smashed="yes"/>
+<instance part="R1" gate="G$1" x="292.1" y="78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="293.624" y="78.74" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="214.376" y="47.879" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="C3" gate="G$1" x="228.6" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.076" y="60.579" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND8" gate="1" x="215.9" y="40.64" smashed="yes">
-<attribute name="VALUE" x="213.36" y="38.1" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="228.6" y="55.88" smashed="yes">
+<attribute name="VALUE" x="226.06" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="GND24" gate="1" x="261.62" y="68.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="264.16" y="71.12" size="1.778" layer="96" rot="R180"/>
+<instance part="GND24" gate="1" x="281.94" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="284.48" y="83.82" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R15" gate="G$1" x="223.52" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="223.52" y="72.136" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<instance part="R15" gate="G$1" x="243.84" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="243.84" y="84.836" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="R16" gate="G$1" x="251.46" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="251.46" y="72.136" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<instance part="R16" gate="G$1" x="271.78" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="271.78" y="84.836" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="C13" gate="G$1" x="203.2" y="193.04" smashed="yes">
 <attribute name="NAME" x="204.216" y="193.675" size="1.778" layer="95" font="vector"/>
@@ -6054,6 +6137,13 @@ reflow soldering</description>
 <instance part="SJ1" gate="G$1" x="182.88" y="208.28" smashed="yes">
 <attribute name="NAME" x="180.34" y="210.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="204.47" size="1.778" layer="96"/>
+</instance>
+<instance part="U5" gate="G$1" x="259.08" y="50.8" smashed="yes">
+<attribute name="NAME" x="246.38" y="61.849" size="1.778" layer="95"/>
+<attribute name="VALUE" x="246.38" y="40.64" size="1.778" layer="96"/>
+</instance>
+<instance part="GND29" gate="1" x="259.08" y="35.56" smashed="yes">
+<attribute name="VALUE" x="256.54" y="33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6318,14 +6408,19 @@ reflow soldering</description>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="46.99" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="59.69" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="256.54" y1="63.5" x2="261.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="261.62" y1="63.5" x2="261.62" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="76.2" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="76.2" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="276.86" y1="55.88" x2="279.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="55.88" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="279.4" y="76.2"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -6347,6 +6442,10 @@ reflow soldering</description>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="203.2" y1="187.96" x2="203.2" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="EXP"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -6517,8 +6616,13 @@ reflow soldering</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="DO/IO1"/>
-<wire x1="256.54" y1="58.42" x2="266.7" y2="58.42" width="0.1524" layer="91"/>
-<label x="259.08" y="58.42" size="1.778" layer="95"/>
+<wire x1="276.86" y1="71.12" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
+<label x="279.4" y="71.12" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="SO/SIO1"/>
+<wire x1="284.48" y1="71.12" x2="287.02" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="50.8" x2="284.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="50.8" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
+<junction x="284.48" y="71.12"/>
 </segment>
 </net>
 <net name="DIO_9" class="0">
@@ -6534,8 +6638,13 @@ reflow soldering</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="DI/IO0"/>
-<wire x1="220.98" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
-<label x="208.28" y="63.5" size="1.778" layer="95"/>
+<wire x1="241.3" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="228.6" y="76.2" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="SI/SIO0"/>
+<wire x1="238.76" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="55.88" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="55.88" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
+<junction x="238.76" y="76.2"/>
 </segment>
 </net>
 <net name="DIO_10" class="0">
@@ -6551,8 +6660,13 @@ reflow soldering</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="CLK"/>
-<wire x1="220.98" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
-<label x="208.28" y="60.96" size="1.778" layer="95"/>
+<wire x1="241.3" y1="73.66" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
+<label x="228.6" y="73.66" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="SCLK"/>
+<wire x1="236.22" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="53.34" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
+<junction x="236.22" y="73.66"/>
 </segment>
 </net>
 <net name="DIO_11" class="0">
@@ -6717,8 +6831,13 @@ reflow soldering</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="CS"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
-<label x="259.08" y="55.88" size="1.778" layer="95"/>
+<wire x1="276.86" y1="68.58" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
+<label x="279.4" y="68.58" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="!CS"/>
+<wire x1="287.02" y1="68.58" x2="292.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="48.26" x2="287.02" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="48.26" x2="287.02" y2="68.58" width="0.1524" layer="91"/>
+<junction x="287.02" y="68.58"/>
 </segment>
 </net>
 <net name="DIO_21" class="0">
@@ -6963,26 +7082,31 @@ reflow soldering</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="271.78" y1="76.2" x2="271.78" y2="83.82" width="0.1524" layer="91"/>
-<label x="274.32" y="78.74" size="1.778" layer="95" rot="R90"/>
+<wire x1="292.1" y1="88.9" x2="292.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="294.64" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="220.98" y1="55.88" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="54.61" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
-<junction x="215.9" y="55.88"/>
-<label x="208.28" y="55.88" size="1.778" layer="95"/>
+<wire x1="231.14" y1="68.58" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="67.31" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
+<junction x="228.6" y="68.58"/>
+<label x="226.06" y="68.58" size="1.778" layer="95"/>
+<pinref part="U5" gate="G$1" pin="VCC"/>
+<wire x1="241.3" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="48.26" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<junction x="231.14" y="68.58"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="73.66" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="73.66" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
-<junction x="238.76" y="73.66"/>
-<label x="238.76" y="78.74" size="1.778" layer="95" rot="R90"/>
+<wire x1="254" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="86.36" x2="261.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="86.36" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
+<junction x="259.08" y="86.36"/>
+<label x="259.08" y="91.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
@@ -7042,19 +7166,29 @@ reflow soldering</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="HOLD/IO3"/>
-<wire x1="220.98" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="58.42" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="71.12" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="!RESET!/SIO3"/>
+<wire x1="241.3" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="50.8" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
+<junction x="233.68" y="71.12"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="WP/IO2"/>
-<wire x1="256.54" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="73.66" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="73.66" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="73.66" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="86.36" x2="287.02" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="86.36" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="!WP!/SIO2"/>
+<wire x1="276.86" y1="53.34" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="53.34" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
+<junction x="281.94" y="73.66"/>
 </segment>
 </net>
 <net name="V+" class="0">
