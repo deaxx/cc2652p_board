@@ -255,13 +255,12 @@
 <text x="2.69635625" y="33.923490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO13/TX</text>
 <text x="2.69635625" y="31.383490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO14</text>
 <text x="2.69635625" y="28.716490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">DIO15</text>
-<text x="2.82335625" y="26.303490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">3V3</text>
-<text x="2.82335625" y="26.303490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">3V3</text>
+<text x="2.82335625" y="26.303490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">GND</text>
 <text x="2.82335625" y="23.763490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TMS</text>
 <text x="2.82335625" y="21.223490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TCK</text>
 <text x="2.82335625" y="18.683490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TDO/DIO16</text>
 <text x="2.82335625" y="16.016490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">TDI/DIO17</text>
-<text x="2.82335625" y="13.603490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">GND</text>
+<text x="2.82335625" y="13.603490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">3V3</text>
 <text x="2.82335625" y="10.936490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR180">+5V</text>
 <text x="22.12735625" y="48.147490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO30</text>
 <text x="22.12735625" y="45.607490625" size="1.016" layer="26" font="vector" ratio="18" rot="MR0">DIO29</text>
