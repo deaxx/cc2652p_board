@@ -5810,12 +5810,12 @@ reflow soldering</description>
 <part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD1,27-254" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U$2" library="W25Q80BVSNIG" deviceset="W25Q80BVSNIG" device="" value="MX25R8035FM1IL0"/>
-<part name="R1" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="2.2k"/>
+<part name="R1" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="100k"/>
 <part name="C3" library="discretes-dev" deviceset="CAP0402" device="" value="100n"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R15" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="0"/>
-<part name="R16" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="0"/>
+<part name="R15" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="10k"/>
+<part name="R16" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="10k"/>
 <part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="TANTALUM-2917(7343-METRIC)" package3d_urn="urn:adsk.eagle:package:16290891/2" technology="_" value="220uF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="3V3_USB"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device="" value="3V3_USB"/>
@@ -5827,7 +5827,7 @@ reflow soldering</description>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SJ1" library="pimoroni-misc" deviceset="SMALL_SOLDER_JUMPER_CLOSED" device="" value="PSM"/>
-<part name="U5" library="MX25R8035FZUIL0" deviceset="MX25R8035FZUIL0" device=""/>
+<part name="U5" library="MX25R8035FZUIL0" deviceset="MX25R8035FZUIL0" device="" value="W25X40CL"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
